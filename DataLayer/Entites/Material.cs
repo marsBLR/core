@@ -8,5 +8,6 @@ namespace DataLayer.Entites
     {
         public int DirectoryId { get; set; }        //Внешний ключ
         public Directory Directory { get; set; }    //Навигационное свойство
+
     }
 }
