@@ -1,0 +1,10 @@
+G:\Git\asp_net_core\DataLayer\bin\Debug\netcoreapp2.1\DataLayer.deps.json
+G:\Git\asp_net_core\DataLayer\bin\Debug\netcoreapp2.1\DataLayer.runtimeconfig.json
+G:\Git\asp_net_core\DataLayer\bin\Debug\netcoreapp2.1\DataLayer.runtimeconfig.dev.json
+G:\Git\asp_net_core\DataLayer\bin\Debug\netcoreapp2.1\DataLayer.dll
+G:\Git\asp_net_core\DataLayer\bin\Debug\netcoreapp2.1\DataLayer.pdb
+G:\Git\asp_net_core\DataLayer\obj\Debug\netcoreapp2.1\DataLayer.csproj.CoreCompileInputs.cache
+G:\Git\asp_net_core\DataLayer\obj\Debug\netcoreapp2.1\DataLayer.AssemblyInfoInputs.cache
+G:\Git\asp_net_core\DataLayer\obj\Debug\netcoreapp2.1\DataLayer.AssemblyInfo.cs
+G:\Git\asp_net_core\DataLayer\obj\Debug\netcoreapp2.1\DataLayer.dll
+G:\Git\asp_net_core\DataLayer\obj\Debug\netcoreapp2.1\DataLayer.pdb
