@@ -53,11 +53,11 @@
       "Microsoft.EntityFrameworkCore.Analyzers/2.1.2": {
         "type": "package"
       },
-      "Microsoft.EntityFrameworkCore.Design/2.1.1": {
+      "Microsoft.EntityFrameworkCore.Design/2.1.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.CSharp": "4.5.0",
-          "Microsoft.EntityFrameworkCore.Relational": "2.1.1"
+          "Microsoft.EntityFrameworkCore.Relational": "2.1.2"
         },
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -94,10 +94,10 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Tools/2.1.1": {
+      "Microsoft.EntityFrameworkCore.Tools/2.1.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Design": "2.1.1"
+          "Microsoft.EntityFrameworkCore.Design": "2.1.2"
         },
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -1091,10 +1091,10 @@
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Design/2.1.1": {
-      "sha512": "Bu5c0Eec+tSW1PA0NxDgxzF0cMQjeGQC5RtBtMm3heow2J7X+2LhdkGFPr4IAL6bFLHJiVcE3csng3i6fB/PtA==",
+    "Microsoft.EntityFrameworkCore.Design/2.1.2": {
+      "sha512": "w0ZSE6wbq3tuY11NYME2gV8jjO+vCVIAX68dOrc9D8Fc7xen9Z+lI9TIOexTdVlIqiwkenFwJTHcrZDYHicn0g==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.design/2.1.1",
+      "path": "microsoft.entityframeworkcore.design/2.1.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1104,7 +1104,7 @@
         "lib/net461/Microsoft.EntityFrameworkCore.Design.xml",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.xml",
-        "microsoft.entityframeworkcore.design.2.1.1.nupkg.sha512",
+        "microsoft.entityframeworkcore.design.2.1.2.nupkg.sha512",
         "microsoft.entityframeworkcore.design.nuspec"
       ]
     },
@@ -1134,16 +1134,16 @@
         "microsoft.entityframeworkcore.sqlserver.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Tools/2.1.1": {
-      "sha512": "Qfz8Au39cALAgxzvfoz6aPkmTuaFmlDYeUjCecaNlQ5x2jxs1rACtWddA5Yu4D3YSsHuHqttgZA6tzKKNVo9mg==",
+    "Microsoft.EntityFrameworkCore.Tools/2.1.2": {
+      "sha512": "Xdc7zwZL8FDS68coYHjqCPprtBZyFcDHvGp26ORHnwftIyHj9BB/7cpsCRGWwWm6CYt3nvio+3ETRxq0tT5/qQ==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.tools/2.1.1",
+      "path": "microsoft.entityframeworkcore.tools/2.1.2",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/_._",
-        "microsoft.entityframeworkcore.tools.2.1.1.nupkg.sha512",
+        "microsoft.entityframeworkcore.tools.2.1.2.nupkg.sha512",
         "microsoft.entityframeworkcore.tools.nuspec",
         "tools/EntityFrameworkCore.PowerShell2.psd1",
         "tools/EntityFrameworkCore.PowerShell2.psm1",
@@ -3647,7 +3647,7 @@
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
       "Microsoft.EntityFrameworkCore >= 2.1.2",
       "Microsoft.EntityFrameworkCore.SqlServer >= 2.1.2",
-      "Microsoft.EntityFrameworkCore.Tools >= 2.1.1",
+      "Microsoft.EntityFrameworkCore.Tools >= 2.1.2",
       "Microsoft.NETCore.App >= 2.1.0"
     ]
   },
@@ -3708,7 +3708,7 @@
             "include": "Runtime, Build, Native, ContentFiles, Analyzers",
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.1.1, )"
+            "version": "[2.1.2, )"
           },
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
