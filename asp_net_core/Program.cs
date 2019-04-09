@@ -25,6 +25,7 @@ namespace asp_net_core
                 var context = services.GetRequiredService<EFDBContext>();
                 SampleData.InitData(context);
             }
+            host.Run();
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>

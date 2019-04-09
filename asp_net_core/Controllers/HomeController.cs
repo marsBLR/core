@@ -5,14 +5,24 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using asp_net_core.Models;
+using DataLayer;
+using DataLayer.Entites;
+using Microsoft.EntityFrameworkCore;
 
 namespace asp_net_core.Controllers
 {
     public class HomeController : Controller
     {
+        private EFDBContext _context;
+
+        public HomeController(EFDBContext context)
+        {
+            _context = context;
+        }
         public IActionResult Index()
         {
-            return View();
+            List<Directory> directories = _context.Directories.Include(x => x.Materials).ToList();
+            return View(directories);
         }
 
         public IActionResult About()
