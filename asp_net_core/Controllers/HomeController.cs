@@ -8,21 +8,24 @@ using asp_net_core.Models;
 using DataLayer;
 using DataLayer.Entites;
 using Microsoft.EntityFrameworkCore;
+using BuissnesLayer;
 
 namespace asp_net_core.Controllers
 {
     public class HomeController : Controller
     {
+        private DataManager _dataManager;
         private EFDBContext _context;
 
-        public HomeController(EFDBContext context)
+        public HomeController(DataManager dataManager)
         {
-            _context = context;
+            _dataManager = dataManager;
         }
         public IActionResult Index()
         {
-            List<Directory> directories = _context.Directories.Include(x => x.Materials).ToList();
-            return View(directories);
+            // List<Directory> _directories = _context.Directories.Include(x => x.Materials).ToList();
+            List<Directory> _directories = _dataManager.Derictorys.GetAllDirectories(true).ToList();
+            return View(_directories);
         }
 
         public IActionResult About()

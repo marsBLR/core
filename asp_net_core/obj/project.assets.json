@@ -4334,6 +4334,19 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
+      "BuissnesLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "DataLayer": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BuissnesLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BuissnesLayer.dll": {}
+        }
+      },
       "DataLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
@@ -11801,6 +11814,11 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
+    "BuissnesLayer/1.0.0": {
+      "type": "project",
+      "path": "../BuissnesLayer/BuissnesLayer.csproj",
+      "msbuildProject": "../BuissnesLayer/BuissnesLayer.csproj"
+    },
     "DataLayer/1.0.0": {
       "type": "project",
       "path": "../DataLayer/DataLayer.csproj",
@@ -11809,6 +11827,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "BuissnesLayer >= 1.0.0",
       "DataLayer >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.1.2",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
@@ -11847,6 +11866,9 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
+            "G:\\Git\\asp_net_core\\BuissnesLayer\\BuissnesLayer.csproj": {
+              "projectPath": "G:\\Git\\asp_net_core\\BuissnesLayer\\BuissnesLayer.csproj"
+            },
             "G:\\Git\\asp_net_core\\DataLayer\\DataLayer.csproj": {
               "projectPath": "G:\\Git\\asp_net_core\\DataLayer\\DataLayer.csproj"
             }

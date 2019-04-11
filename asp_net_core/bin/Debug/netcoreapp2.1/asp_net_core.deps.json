@@ -24,6 +24,7 @@
     ".NETCoreApp,Version=v2.1": {
       "asp_net_core/1.0.0": {
         "dependencies": {
+          "BuissnesLayer": "1.0.0",
           "DataLayer": "1.0.0",
           "Microsoft.AspNetCore.App": "2.1.2",
           "Microsoft.AspNetCore.Razor.Design": "2.1.2",
@@ -323,6 +324,17 @@
           "System.Reflection.Extensions": "4.3.0",
           "System.Resources.ResourceManager": "4.3.0",
           "System.Runtime": "4.3.0"
+        }
+      },
+      "BuissnesLayer/1.0.0": {
+        "dependencies": {
+          "DataLayer": "1.0.0"
+        },
+        "runtime": {
+          "BuissnesLayer.dll": {}
+        },
+        "compile": {
+          "BuissnesLayer.dll": {}
         }
       },
       "DataLayer/1.0.0": {
@@ -3314,6 +3326,11 @@
       "sha512": "sha512-Yn/WfYe9RoRfmSLvUt2JerP0BTGGykCZkQPgojaxgzF2N0oPo+/AhB8TXOpdCcNlrG3VRtsamtK2uzsp3cqRVw==",
       "path": "system.linq.queryable/4.0.1",
       "hashPath": "system.linq.queryable.4.0.1.nupkg.sha512"
+    },
+    "BuissnesLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "DataLayer/1.0.0": {
       "type": "project",

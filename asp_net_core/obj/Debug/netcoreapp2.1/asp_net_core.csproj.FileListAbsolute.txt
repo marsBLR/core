@@ -32,3 +32,5 @@ G:\Git\asp_net_core\asp_net_core\obj\Debug\netcoreapp2.1\asp_net_core.Views.pdb
 G:\Git\asp_net_core\asp_net_core\obj\Debug\netcoreapp2.1\asp_net_core.csproj.CopyComplete
 G:\Git\asp_net_core\asp_net_core\obj\Debug\netcoreapp2.1\asp_net_core.dll
 G:\Git\asp_net_core\asp_net_core\obj\Debug\netcoreapp2.1\asp_net_core.pdb
+G:\Git\asp_net_core\asp_net_core\bin\Debug\netcoreapp2.1\BuissnesLayer.dll
+G:\Git\asp_net_core\asp_net_core\bin\Debug\netcoreapp2.1\BuissnesLayer.pdb

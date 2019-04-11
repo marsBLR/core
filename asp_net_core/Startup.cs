@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BuissnesLayer;
+using BuissnesLayer.Implementations;
+using BuissnesLayer.Interfaces;
 using DataLayer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -34,7 +37,10 @@ namespace asp_net_core
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
-
+            //Регистрируем repository
+            services.AddTransient<IDerictorysRepository, EFDerictoriasRepository>();
+            services.AddTransient<IMaterialsRepository, EFMaterialsRepository>();
+            services.AddScoped<DataManager>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
