@@ -38,7 +38,7 @@ namespace asp_net_core
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
             //Регистрируем repository
-            services.AddTransient<IDerictorysRepository, EFDerictoriasRepository>();
+            services.AddTransient<IDirectorysRepository, EFDirectoriasRepository>();
             services.AddTransient<IMaterialsRepository, EFMaterialsRepository>();
             services.AddScoped<DataManager>();
 

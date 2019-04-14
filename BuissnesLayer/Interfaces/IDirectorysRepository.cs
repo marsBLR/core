@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BuissnesLayer.Interfaces
 {
-    public interface IDerictorysRepository
+    public interface IDirectorysRepository
     {
         IEnumerable<Directory> GetAllDirectories(bool includeMaterials = false);
         Directory GetDirectoryById(int directoryId, bool includeMaterials = false);

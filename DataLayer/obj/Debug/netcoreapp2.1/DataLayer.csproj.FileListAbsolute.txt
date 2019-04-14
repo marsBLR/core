@@ -8,3 +8,4 @@ G:\Git\asp_net_core\DataLayer\obj\Debug\netcoreapp2.1\DataLayer.AssemblyInfoInpu
 G:\Git\asp_net_core\DataLayer\obj\Debug\netcoreapp2.1\DataLayer.AssemblyInfo.cs
 G:\Git\asp_net_core\DataLayer\obj\Debug\netcoreapp2.1\DataLayer.dll
 G:\Git\asp_net_core\DataLayer\obj\Debug\netcoreapp2.1\DataLayer.pdb
+G:\Git\asp_net_core\DataLayer\obj\Debug\netcoreapp2.1\DataLayer.csprojAssemblyReference.cache

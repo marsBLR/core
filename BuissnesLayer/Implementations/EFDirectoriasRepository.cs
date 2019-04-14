@@ -9,10 +9,10 @@ using System.Text;
 
 namespace BuissnesLayer.Implementations
 {
-    public class EFDerictoriasRepository : IDerictorysRepository
+    public class EFDirectoriasRepository : IDirectorysRepository
     {
         private EFDBContext context;
-        public EFDerictoriasRepository(EFDBContext context)
+        public EFDirectoriasRepository(EFDBContext context)
         {
             this.context = context;
         }
