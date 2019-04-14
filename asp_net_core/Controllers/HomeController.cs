@@ -9,17 +9,20 @@ using DataLayer;
 using DataLayer.Entites;
 using Microsoft.EntityFrameworkCore;
 using BuissnesLayer;
+using PresentationLayer;
 
 namespace asp_net_core.Controllers
 {
     public class HomeController : Controller
     {
         private DataManager _dataManager;
+        private ServicesManager _servicesManager;
         private EFDBContext _context;
 
         public HomeController(DataManager dataManager)
         {
             _dataManager = dataManager;
+            _servicesManager = new ServicesManager(_dataManager);
         }
         public IActionResult Index()
         {
